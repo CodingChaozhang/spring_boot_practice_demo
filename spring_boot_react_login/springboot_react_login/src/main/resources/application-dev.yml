@@ -1,0 +1,17 @@
+# 1.项目启动端口
+server:
+  port: 8081
+
+# 2.数据库连接参数
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/login?serverTimezone=UTC&useSSL=false
+    username: root
+    password: 123
+
+# 3.mybatis的配置
+mybatis:
+  config-location: classpath:mybatis-config.xml
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.lcz.login.entity
