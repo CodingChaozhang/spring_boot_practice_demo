@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spring boot整合SSE实现服务器推送流信息</title>
+    <script>
+        if(typeof(EventSource)!=="undefined")
+        {
+            var source = new EventSource("/sse/get_true");
+            source.onmessage = function(event)
+            {
+                // document.getElementById("result").innerHTML+=event.data + "<br>";
+                document.getElementById('result').innerText = event.data ;
+            };
+        }
+        else
+        {
+            document.getElementById("result").innerHTML="抱歉，你的浏览器不支持 server-sent 事件...";
+        }
+    </script>
+</head>
+<body>
+    <div id="result"></div>
+</body>
+</html>
