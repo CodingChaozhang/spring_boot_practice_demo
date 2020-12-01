@@ -8,19 +8,19 @@
 
 首先通过IDEA快速建立一个spring boot的应用。
 
-![image-20201201132302893](C:\Users\lcz\AppData\Roaming\Typora\typora-user-images\image-20201201132302893.png)
+![image-20201201132302893](imgs_thymeleaf\1.png)
 
-![image-20201201132309342](C:\Users\lcz\AppData\Roaming\Typora\typora-user-images\image-20201201132309342.png)
+![image-20201201132309342](D:\software\typora\workplace\imgs_thymeleaf\2.png)
 
 选择好spring web所需的模块。
 
-![image-20201201132414366](C:\Users\lcz\AppData\Roaming\Typora\typora-user-images\image-20201201132414366.png)
+![image-20201201132414366](D:\software\typora\workplace\imgs_thymeleaf\3.png)
 
-![image-20201201132421463](C:\Users\lcz\AppData\Roaming\Typora\typora-user-images\image-20201201132421463.png)
+![image-20201201132421463](D:\software\typora\workplace\imgs_thymeleaf\4.png)
 
 之后在java下新建一个controller，新建一个hellocontroller.java文件，之后测试一下，在游览器打开localhost:8080/hello。
 
-![image-20201201132626182](C:\Users\lcz\AppData\Roaming\Typora\typora-user-images\image-20201201132626182.png)
+![image-20201201132626182](D:\software\typora\workplace\imgs_thymeleaf\5.png)
 
 ```java
 @RestController
@@ -38,7 +38,7 @@ public class HelloController {
 
 
 
-![image-20201201134332664](C:\Users\lcz\AppData\Roaming\Typora\typora-user-images\image-20201201134332664.png)
+![image-20201201134332664](D:\software\typora\workplace\imgs_thymeleaf\6.png)
 
 # 二、spring boot支持thymeleaf
 
@@ -78,7 +78,7 @@ spring:
 
 新建的目录结构如图所示
 
-![image-20201201134817576](C:\Users\lcz\AppData\Roaming\Typora\typora-user-images\image-20201201134817576.png)、
+![image-20201201134817576](D:\software\typora\workplace\imgs_thymeleaf\7.png)、
 
 
 
@@ -86,21 +86,21 @@ spring:
 
 
 
-![image-20201201132934515](C:\Users\lcz\AppData\Roaming\Typora\typora-user-images\image-20201201132934515.png)
+![image-20201201132934515](D:\software\typora\workplace\imgs_thymeleaf\8.png)
 
 之后选择modules->web，出现如下所示界面。
 
-![image-20201201132956379](C:\Users\lcz\AppData\Roaming\Typora\typora-user-images\image-20201201132956379.png)
+![image-20201201132956379](D:\software\typora\workplace\imgs_thymeleaf\9.png)
 
 之后对其添加webapp目录
 
-![image-20201201133013207](C:\Users\lcz\AppData\Roaming\Typora\typora-user-images\image-20201201133013207.png)
+![image-20201201133013207](D:\software\typora\workplace\imgs_thymeleaf\10.png)
 
-![image-20201201133042140](C:\Users\lcz\AppData\Roaming\Typora\typora-user-images\image-20201201133042140.png)
+![image-20201201133042140](D:\software\typora\workplace\imgs_thymeleaf\11.png)
 
 点击create artifact之后出现的界面，ok即完成。
 
-![image-20201201133051355](C:\Users\lcz\AppData\Roaming\Typora\typora-user-images\image-20201201133051355.png)
+![image-20201201133051355](D:\software\typora\workplace\imgs_thymeleaf\12.png)
 
 ## 2.4 webapp/WEB-INF/show.html
 
@@ -154,7 +154,7 @@ public class Thymelead_JSP_Controller {
 
 出现如下所示，即成功完成thymeleaf的搭建操作。
 
-![image-20201201133844394](C:\Users\lcz\AppData\Roaming\Typora\typora-user-images\image-20201201133844394.png)
+![image-20201201133844394](D:\software\typora\workplace\imgs_thymeleaf\13.png)
 
 # 三、spring boot支持jsp
 
@@ -274,4 +274,4 @@ public class Thymelead_JSP_Controller {
 
 出现以下界面，则表示搭建完成！！！
 
-![image-20201201134133230](C:\Users\lcz\AppData\Roaming\Typora\typora-user-images\image-20201201134133230.png)
+![image-20201201134133230](D:\software\typora\workplace\imgs_thymeleaf\14.png)
