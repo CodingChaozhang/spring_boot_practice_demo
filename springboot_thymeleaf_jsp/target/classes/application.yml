@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/
+      suffix: .jsp
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5  #���ϸ�ģʽ
+    prefix: /WEB-INF/ #Ĭ�� classpath:/templates/
+    suffix: .html
+    servlet:
+      content-type: text/html

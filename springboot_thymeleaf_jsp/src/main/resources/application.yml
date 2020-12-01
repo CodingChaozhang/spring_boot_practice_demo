@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/
+      suffix: .jsp
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5  #非严格模式
+    prefix: /WEB-INF/ #默认 classpath:/templates/
+    suffix: .html
+    servlet:
+      content-type: text/html
